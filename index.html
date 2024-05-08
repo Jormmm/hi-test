@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+                <div class="header__container">
+                    <div class="header__logo">
+                        <img src="img/Logo.svg" alt="logotype" class="logo-picture">
+                    </div>
+                    <div class="header__navbar">
+                        <nav>
+                            <ul class="menu">
+                                <li class="menu__item" onclick="location.href='#' ">Dashboard</li>
+                                <li class="menu__item" onclick="location.href='#' ">Product</li>
+                                <li class="menu__item" onclick="location.href='#' ">Customers</li>
+                                <li class="menu__item" onclick="location.href='#' ">Income</li>
+                                <li class="menu__item" onclick="location.href='#' ">Promote</li>
+                                <li class="menu__item" onclick="location.href='#' ">Help</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__user-info info-user">
+                        <div class="info-user__avatar">
+                            <img src="img/avatar.png" alt="user-avatar" class="info-user__image">
+                        </div>
+                        <div class="info-user__name name-info">
+                            <div class="name-info__first-name">Evano</div>
+                            <div class="name-info__noun">Project Manager</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__button"></div>
+        </header>
+        <main class="main">
+            <div class="main__container">
+                <div class="main__welcome">Hello Evano 👋,</div>
+                <div class="main__block table-block">
+                    <div class="table-block__hero hero-info">
+                        <div class="hero-info__block">
+                            <h1 class="hero-info__title">All Customers</h1>
+                            <h2 class="hero-info__subtitle">Active Members</h2>
+                        </div>
+                        <div class="hero-info__search">
+                            <input class="search-panel" type="search" placeholder="Search">
+                        </div>
+                    </div>
+                    <div class="table-block__list list-block">
+                        <table class="list-block__sheet">
+                            <tr class="trat">
+                                <th>Customer Name</th>
+                                <th>Company</th>
+                                <th>Phone Number</th>
+                                <th>Email</th>
+                                <th>Country</th>
+                                <th>Status</th>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>(225) 555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td class="status active" onclick="toggleStatus(this)" >active</td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>(225) 555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td class="status active" onclick="toggleStatus(this)" >active</td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>(225) 555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td class="status active" onclick="toggleStatus(this)" >active</td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>(225) 555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td class="status active" onclick="toggleStatus(this)" >active</td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>(225) 555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td class="status active" onclick="toggleStatus(this)" >active</td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>(225) 555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td class="status active" onclick="toggleStatus(this)" >active</td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>(225) 555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td class="status active" onclick="toggleStatus(this)" >active</td>
+                            </tr>
+                            <tr>
+                                <td>Jane Cooper</td>
+                                <td>Microsoft</td>
+                                <td>(225) 555-0118</td>
+                                <td>jane@microsoft.com</td>
+                                <td>United States</td>
+                                <td class="status active" onclick="toggleStatus(this)" >active</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="table-block__source source-block">
+                        <div class="source-block__info">
+                            Showing data 1 to 8 of  256K entries
+                        </div>
+                        <div class="source-block__navigation">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+    <script src="js/script.js" ></script>
+</body>
+</html>
