@@ -409,7 +409,7 @@ body.dark {
       -ms-flex-align: center;
           align-items: center;
   gap: 200px;
-  margin: 0 0 50px 100px;
+  margin: 0 100px 50px 100px;
 }
 
 .service-info__images {
@@ -486,7 +486,9 @@ body.dark {
 
 .floor-first__title {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .floor-first__subtitle {
@@ -501,7 +503,9 @@ body.dark {
 }
 
 .floor-second__title {
-  font-weight: 500;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .hotel-room {
@@ -1105,5 +1109,24 @@ footer {
 @media (max-width: 416px) {
   .service-info__text {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .floor-first {
+    line-height: 30px;
+  }
+
+  .floor-first__title {
+    font-size: 18px;
+  }
+
+  .floor-first__subtitle {
+    font-size: 18px;
+  }
+
+  .floor-second {
+    font-size: 18px;
+    line-height: 30px;
   }
 }
