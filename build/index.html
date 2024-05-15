@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+
+  <body class="main__body">
+    <!-- Header -->
+    <header>
+  <!-- Navbar -->
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo"><a href="tel:+38 (067) 672-66-56"> +38 (067) 672-66-56 </a></div>
+        <nav>
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#about" class="menu__item-link" data-scroll>Опис</a>
+            </li>
+            <li class="menu__item">
+              <a href="#hotel-room" class="menu__item-link" data-scroll>Номери</a>
+            </li>
+            <li class="menu__item">
+              <a href="#service" class="menu__item-link" data-scroll>Сервіс і послуги</a>
+            </li>
+            <li class="menu__item">
+              <a href="#map" class="menu__item-link" data-scroll>Як добратись?</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="burger">
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <!-- Main Page -->
+    <main>
+      <div class="wrapper">
+        <section class="siesta">
+          <div class="container">
+            <div class="siesta__wrapper">
+              <div class="siesta__block">
+                <h2 class="siesta__title">мотель-бар <span> «Сієста» </span></h2>
+                <button onclick="location.href='tel:+38 (067) 672-66-56'" class="siesta__button">Зателефонувати</button>
+              </div>                
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <div class="container">
+            <div class="about__wrapper">
+              <div class="about__stairs">
+                <img src="img/stairs.svg" alt="stairs" class="stairs__ico">
+                <span>2 поверхи</span>
+              </div>  
+                <div class="about__block-information service-info">
+                      <div class="service-info__block">
+                        <div class="service-info__floors">
+                          <div class="service__first-floor floor-first">
+                            <h2 class="floor-first__title">На першому поверсі</h2>
+                            <p class="floor-first__subtitle">Затишний бар на 26 місць та плазмовий телевізор</p>
+                          </div>
+                          <div class="service__second-floor floor-second">
+                            <h2 class="floor-second__title">На другому поверсі</h2>
+                            <p class="floor-second__subtitle">Готель на 10 місць</p>
+                          </div>
+                        </div>
+                      </div>
+                <div class="service-info__cards">
+                  <div class="service-info__card">
+                    <p class="service-info__text">Автономне водяне опалення, постійна холодна вода та 150л бойлер для гарячої води</p>
+                    <img src="img/ico1.svg" alt="ico" class="service-info__ico">
+                  </div>
+                  <div class="service-info__card">
+                    <p class="service-info__text">На території мотелю — автосервіс та магазин автозапчастин</p>
+                    <img src="img/ico2.svg" alt="ico" class="service-info__ico">
+                  </div>
+                  <div class="service-info__card">
+                    <p class="service-info__text">ОБЛАДНАНА КУХНЯ та 500м до найближчого кафе та магазину</p>
+                    <img src="img/ico3.svg" alt="ico" class="service-info__ico">
+                  </div>
+                  <div class="service-info__card" onclick="location.href='tel:+38 (067) 672-66-56'" >
+                    <p class="service-info__text">ДЛЯ БРОНЮВАННЯ ТЕЛЕФОН <br> +38 (067) 672-66-56</p>
+                    
+                  </div>
+                </div>
+                <div class="service-info__comfort"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="hotel-room" id="hotel-room">
+          <div class="container">
+            <div class="hotel-room__wrapper">
+              <div class="hotel-room__info">
+              <h2 class="hotel-room__title">Номери:</h2>
+              <p class="hotel-room__text"><strong>Двомісний стандарт (4 номери)</strong> — двоспальне ліжко, шафа для одягу, телевізор, санвузол (туалет, умивальник, душова кабіна). Номери відрізняються площею та дизайном</p>
+              <p class="hotel-room__text"><strong>Півлюкс</strong> — двоспальне ліжко, шафа для одягу, телевізор, кондиціонер, санвузол (туалет, умивальник, душова кабіна). Додаткове місце — розкладний диван</p>
+              </div>
+              <div class="hotel-room__picture">
+                <img src="img/group-rooms.png" alt="hotel-room-images" class="hotel-room__images">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="service" id="service" >
+          <div class="container">
+            <div class="service__wrapper">
+              <div class="accordion">
+                <div class="accordion__item">
+                    <div class="accordion__item-trigger">
+                        <div class="trigger__text">Сервіс</div>
+                        <div class="trigger__img">
+                            <span class="trigger__line-1"></span>
+                            <span class="trigger__line-2"></span>
+                        </div>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div class="content__text">
+                            <ul>
+                              <li class="content__info">Паркінг з охороною, виклик таксі.</li>
+                              <li class="content__info">Користування праскою, феном.</li>
+                              <li class="content__info">Кабельне телебачення.</li>
+                              <li class="content__info">Прибирання кімнат — щодня, зміна постелі — раз на 4 дні, зміна рушників (3 на особу) — за потребою.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion__item">
+                    <div class="accordion__item-trigger">
+                        <div class="trigger__text">Послуги</div>
+                        <div class="trigger__img">
+                            <span class="trigger__line-1"></span>
+                            <span class="trigger__line-2"></span>
+                        </div>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div class="content__text">
+                            <ul>
+                              <li class="content__info">Послуги автосервісу та магазин автозапчастин (тільки для іномарок).</li>
+                              <li class="content__info">Неподалік від мотелю розташований торгово-розважальний центр "King Cross Leopolis": боулінг, ковзанка, кінотеатр, розваги для дітей.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="map" id="map">
+          <div class="container">
+            <div class="map__wrapper">
+              <h2 class="map__title">Як добратись?</h2>  
+              <div class="map__card">
+                <h3 class="map__name">мотель-бар "Сієста"</h3>
+                <!-- <p class="map__text">проєктування будинків</p> -->
+                <ul class="map__adress">
+                  <li class="map__items">Львівська область Пустомитівський район <br> село Солонка <br> вул. Польова, 2 б</li>
+                  <li class="map__items"> <span>067</span>672<span>6656</span></li>
+                </ul>
+                <div class="map__itembutton">
+                  <button class="map__button" onclick="location.href='tel:+38 (067) 672-66-56'" >Зателефонувати</button>
+                </div>
+              </div>
+              <div class="map__position">
+                <img src="img/map.png" alt="Clickable Image" onclick="openMap()" class="position-image">
+              </div>
+                            <p class="map__info-search"><strong>Громадським транспортом</strong>
+Від міста Львів маршруткою №133 від пл. Митрополита Андрея по вул. Стрийській до села Солонка.</p>
+              <p class="map__info-search"><strong>Автомобілем</strong>
+До села Солонка трасою Київ — Львів — Чоп. Мотель знаходиться біля траси, праворуч від дороги за заправкою "АМІС" (для тих, хто їде зі сторони міста Львів). Для тих, хто їде в напрямку Львова (зі сторони міста Миколаїв) для зручного розвороту необхідно використати міст кільцевої дороги (після заправки "WOG" проїхати під мостом і виїхати на міст, а далі знову повернути праворуч для з'їзду з моста).</p>  
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+    <div class="container container-color">
+        <div class="footer">
+            <div class="footer__contact">
+                <h2 class="footer__title">Зв`язок</h2>
+                <ul class="footer__items">
+                    <li class="footer__item"><a class="footer__link" href="#"> Львівська область Пустомитівський район <br> село Солонка <br> вул. Польова, 2 б</a></li>
+                    <li class="footer__item"><a class="footer__link" href="tel:+380676726656"> 0676726656 </a></li>
+                </ul>
+            </div>
+            <div class="footer__nav">
+                <h2 class="footer__title">Навігація</h2>
+                <ul class="footer__items">
+                    <li class="footer__item"><a class="footer__link" href="#about"> Опис </a></li>
+                    <li class="footer__item"><a class="footer__link" href="#hotel-room"> Номери </a></li>
+                    <li class="footer__item"><a class="footer__link" href="#service"> Сервіс і послуги </a></li>
+                    <li class="footer__item"><a class="footer__link" href="#map"> Як добратись? </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+  </body>
+
+  <script src="./js/scripts.min.js"></script>
+</html>
