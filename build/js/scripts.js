@@ -42,7 +42,9 @@ burgerMenu()
 
 document.addEventListener('DOMContentLoaded', function () {
 	var title = document.querySelector('.siesta__title')
-	title.classList.add('show')
+	setTimeout(function () {
+		title.classList.add('show')
+	}, 500)
 })
 
 // Аккордеон
