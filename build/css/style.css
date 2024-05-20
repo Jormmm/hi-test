@@ -309,10 +309,6 @@ body.dark {
 }
 
 .siesta {
-  background-color: #454D54;
-}
-
-.siesta__wrapper {
   height: 100vh;
   max-width: 100%;
   background: url(../img/main.png) center/cover no-repeat;
